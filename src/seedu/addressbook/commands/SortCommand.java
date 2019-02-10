@@ -13,7 +13,7 @@ public class SortCommand extends Command {
 	public static final String COMMAND_WORD = "sort";
 
 	public static final String MESSAGE_USAGE = COMMAND_WORD
-			+ ": Sort address book by name.\n"
+			+ ": Sort addressbook by name.\n"
 			+ "Example: " + COMMAND_WORD;
 
 	public static final String MESSAGE_RESULT = "Sort command executed";
