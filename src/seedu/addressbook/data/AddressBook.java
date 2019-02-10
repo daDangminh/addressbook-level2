@@ -34,6 +34,11 @@ public class AddressBook {
      *
      * @throws DuplicatePersonException if an equivalent person already exists.
      */
+
+    public void sortByName(){
+        allPersons.sortByName();
+    }
+
     public void addPerson(Person toAdd) throws DuplicatePersonException {
         allPersons.add(toAdd);
     }

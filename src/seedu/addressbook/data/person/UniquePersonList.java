@@ -109,6 +109,12 @@ public class UniquePersonList implements Iterable<Person> {
         internalList.add(toAdd);
     }
 
+    public void sortByName() {
+        internalList.sort((person1, person2) -> {
+            return (person1.getName().fullName).compareTo(person2.getName().fullName);
+        });
+    }
+
     /**
      * Removes the equivalent person from the list.
      *
